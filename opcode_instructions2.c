@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * _queue - sets the format of the data to a queue (FIFO)
+ * _queue - function sets the format of the data to a queue (FIFO)
  *
  * @doubly: head of the linked list
  * @cline: line number;
@@ -16,7 +16,7 @@ void _queue(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _stack - sets the format fo the data to a stack (LIFO)
+ * _stack - function sets the format fo the data to a stack (LIFO)
  *
  * @doubly: head of the linked list
  * @cline: line number;
@@ -31,7 +31,7 @@ void _stack(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _add - adds the top two elements of the stack
+ * _add - function adds the top two elements of the stack
  *
  * @doubly: head of the linked list
  * @cline: line number;
@@ -60,7 +60,7 @@ void _add(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _nop - doesn't do anythinhg
+ * _nop - function doesn't do anythinhg
  *
  * @doubly: head of the linked list
  * @cline: line number;
@@ -73,7 +73,8 @@ void _nop(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _sub - subtracts the top element to the second top element of the stack
+ * _sub - function subtracts the top element to
+ * the second top element of the stack
  *
  * @doubly: head of the linked list
  * @cline: line number;
